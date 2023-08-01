@@ -1,0 +1,699 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="STR_ADDINFO" xml:space="preserve">
+    <value>支付内容</value>
+  </data>
+  <data name="STR_ADDMONEY" xml:space="preserve">
+    <value>支付金额</value>
+  </data>
+  <data name="STR_ADDSITE" xml:space="preserve">
+    <value>添加归属</value>
+  </data>
+  <data name="STR_ADMIN" xml:space="preserve">
+    <value>管理员</value>
+  </data>
+  <data name="STR_ADMINCONNIP" xml:space="preserve">
+    <value>管理员登录IP</value>
+  </data>
+  <data name="STR_ADMINMONEY" xml:space="preserve">
+    <value>会员充值与提现</value>
+  </data>
+  <data name="STR_ALLMEMBERMONEY" xml:space="preserve">
+    <value>会员保留金额</value>
+  </data>
+  <data name="STR_ALLSALEMONEY" xml:space="preserve">
+    <value>总清算额</value>
+  </data>
+  <data name="STR_APPLY" xml:space="preserve">
+    <value>允许</value>
+  </data>
+  <data name="STR_AUTOUPDATE" xml:space="preserve">
+    <value>自动更新</value>
+  </data>
+  <data name="STR_BANK_CFT" xml:space="preserve">
+    <value>腾讯财</value>
+  </data>
+  <data name="STR_BANK_GSYH" xml:space="preserve">
+    <value>中国工商银行</value>
+  </data>
+  <data name="STR_BANK_ZFB" xml:space="preserve">
+    <value>支付宝</value>
+  </data>
+  <data name="STR_BENEFIT" xml:space="preserve">
+    <value>利益</value>
+  </data>
+  <data name="STR_BENIFITMONEY" xml:space="preserve">
+    <value>收入金额</value>
+  </data>
+  <data name="STR_BETCOUNT_MONEY" xml:space="preserve">
+    <value>下注次数/金额</value>
+  </data>
+  <data name="STR_BETDATE" xml:space="preserve">
+    <value>下注日期</value>
+  </data>
+  <data name="STR_BETMONEY" xml:space="preserve">
+    <value>下注金额</value>
+  </data>
+  <data name="STR_BETPOS" xml:space="preserve">
+    <value>下注位置</value>
+  </data>
+  <data name="STR_BETSTATUS" xml:space="preserve">
+    <value>下注现状</value>
+  </data>
+  <data name="STR_BETUSER" xml:space="preserve">
+    <value>下注会员</value>
+  </data>
+  <data name="STR_BLOCK" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="STR_CALC" xml:space="preserve">
+    <value>清算</value>
+  </data>
+  <data name="STR_CALCEND" xml:space="preserve">
+    <value>清算完毕</value>
+  </data>
+  <data name="STR_CALCWAIT" xml:space="preserve">
+    <value>等待清算</value>
+  </data>
+  <data name="STR_CANCEL" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="STR_CASH" xml:space="preserve">
+    <value>金额</value>
+  </data>
+  <data name="STR_CHANGEDMONEY" xml:space="preserve">
+    <value>变更后金额</value>
+  </data>
+  <data name="STR_CHARGE" xml:space="preserve">
+    <value>充值</value>
+  </data>
+  <data name="STR_CHARGECOUNT" xml:space="preserve">
+    <value>充值数</value>
+  </data>
+  <data name="STR_CHARGEDISCARGE" xml:space="preserve">
+    <value>充值前</value>
+  </data>
+  <data name="STR_CHARGEDO" xml:space="preserve">
+    <value>充值处理</value>
+  </data>
+  <data name="STR_CHARGEHIST" xml:space="preserve">
+    <value>充值详情</value>
+  </data>
+  <data name="STR_CHARGEMONEY" xml:space="preserve">
+    <value>充值金额</value>
+  </data>
+  <data name="STR_CHARGE_NAME" xml:space="preserve">
+    <value>充值人姓名</value>
+  </data>
+  <data name="STR_CLOSE" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="STR_COMPLETE" xml:space="preserve">
+    <value>完毕</value>
+  </data>
+  <data name="STR_CONFIRM" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="STR_CONNDATE" xml:space="preserve">
+    <value>最终登录/注册时间</value>
+  </data>
+  <data name="STR_CONNDATE1" xml:space="preserve">
+    <value>登录日期</value>
+  </data>
+  <data name="STR_CONNDOMAIN" xml:space="preserve">
+    <value>登录域名</value>
+  </data>
+  <data name="STR_CONNECTTIME" xml:space="preserve">
+    <value>登录时间</value>
+  </data>
+  <data name="STR_CONNIP" xml:space="preserve">
+    <value>登录IP</value>
+  </data>
+  <data name="STR_CONNPATH" xml:space="preserve">
+    <value>登录页面</value>
+  </data>
+  <data name="STR_CONTENT" xml:space="preserve">
+    <value>内容</value>
+  </data>
+  <data name="STR_CONTRIBUTE" xml:space="preserve">
+    <value>贡献度</value>
+  </data>
+  <data name="STR_COUNT" xml:space="preserve">
+    <value>件数</value>
+  </data>
+  <data name="STR_CREDIT" xml:space="preserve">
+    <value>支付</value>
+  </data>
+  <data name="STR_CURRENT" xml:space="preserve">
+    <value>现状</value>
+  </data>
+  <data name="STR_CURRENTCONNECT" xml:space="preserve">
+    <value>实时登录信息</value>
+  </data>
+  <data name="STR_DATE" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="STR_DEBIT" xml:space="preserve">
+    <value>提现</value>
+  </data>
+  <data name="STR_DELETE" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="STR_DELETEDATE" xml:space="preserve">
+    <value>退出时刻</value>
+  </data>
+  <data name="STR_DISCHARGE" xml:space="preserve">
+    <value>提现</value>
+  </data>
+  <data name="STR_DISCHARGECOUNT" xml:space="preserve">
+    <value>提现次数</value>
+  </data>
+  <data name="STR_DISCHARGEDO" xml:space="preserve">
+    <value>确定提现</value>
+  </data>
+  <data name="STR_DISCHARGEHIST" xml:space="preserve">
+    <value>提现详情</value>
+  </data>
+  <data name="STR_DISCHARGEMONEY" xml:space="preserve">
+    <value>提现金额</value>
+  </data>
+  <data name="STR_DISTCOUNT" xml:space="preserve">
+    <value>(代理数 : {0}, &lt;font color="orange"&gt;停止 : {1}&lt;/font&gt;, &lt;font color="red"&gt;离会数 : {2}&lt;/font&gt;)</value>
+  </data>
+  <data name="STR_DISTREG" xml:space="preserve">
+    <value>添加代理</value>
+  </data>
+  <data name="STR_DOMAIN" xml:space="preserve">
+    <value>域名</value>
+  </data>
+  <data name="STR_EXCELDOWN" xml:space="preserve">
+    <value>EXCEL保存</value>
+  </data>
+  <data name="STR_FAILE" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="STR_FIRST" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="STR_GAMECONFIG" xml:space="preserve">
+    <value>竞技设置</value>
+  </data>
+  <data name="STR_GAMEDATE" xml:space="preserve">
+    <value>竞技时间</value>
+  </data>
+  <data name="STR_GAMERESULT" xml:space="preserve">
+    <value>竞技结果</value>
+  </data>
+  <data name="STR_GAMERESULT_AUTO" xml:space="preserve">
+    <value>自动输入</value>
+  </data>
+  <data name="STR_GAMERESULT_OBTAIN" xml:space="preserve">
+    <value>取得结果</value>
+  </data>
+  <data name="STR_GAMERESULT_PASSIVE" xml:space="preserve">
+    <value>手动输入</value>
+  </data>
+  <data name="STR_GAMMING" xml:space="preserve">
+    <value>竞技中</value>
+  </data>
+  <data name="STR_INTERCEPTDATE" xml:space="preserve">
+    <value>限制日期</value>
+  </data>
+  <data name="STR_INTERCEPTIP" xml:space="preserve">
+    <value>限制登录IP</value>
+  </data>
+  <data name="STR_IP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="STR_IP_INTERCEPT" xml:space="preserve">
+    <value>限制IP</value>
+  </data>
+  <data name="STR_JOINCOUNT" xml:space="preserve">
+    <value>会员注册数</value>
+  </data>
+  <data name="STR_LADDER" xml:space="preserve">
+    <value>梯子</value>
+  </data>
+  <data name="STR_LAST" xml:space="preserve">
+    <value>最终</value>
+  </data>
+  <data name="STR_LASTCONNECT" xml:space="preserve">
+    <value>最终登录</value>
+  </data>
+  <data name="STR_LEAVE" xml:space="preserve">
+    <value>离会</value>
+  </data>
+  <data name="STR_LEAVECOUNT" xml:space="preserve">
+    <value>离会会员数</value>
+  </data>
+  <data name="STR_LOGINID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="STR_LOGININFO" xml:space="preserve">
+    <value>登录情报</value>
+  </data>
+  <data name="STR_LOGINMEMBER" xml:space="preserve">
+    <value>登录会员</value>
+  </data>
+  <data name="STR_LOGINMEMBERMONEY" xml:space="preserve">
+    <value>登录会员保有额</value>
+  </data>
+  <data name="STR_LOGINPWD" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="STR_LOGINTIME" xml:space="preserve">
+    <value>登录时间</value>
+  </data>
+  <data name="STR_LOGOUT" xml:space="preserve">
+    <value>退出登录</value>
+  </data>
+  <data name="STR_LOGOUTTIME" xml:space="preserve">
+    <value>退出时间</value>
+  </data>
+  <data name="STR_LOSE" xml:space="preserve">
+    <value>未中奖</value>
+  </data>
+  <data name="STR_MAJANG_BETRATIO" xml:space="preserve">
+    <value>代理赔率设置</value>
+  </data>
+  <data name="STR_MANUALCHARGECONFIG" xml:space="preserve">
+    <value>手动充值账户设置</value>
+  </data>
+  <data name="STR_MEMBER" xml:space="preserve">
+    <value>会员</value>
+  </data>
+  <data name="STR_MEMBERCOUNT" xml:space="preserve">
+    <value>全部会员数</value>
+  </data>
+  <data name="STR_MEMBERINFO" xml:space="preserve">
+    <value>会员情报</value>
+  </data>
+  <data name="STR_MEMBERJOIN" xml:space="preserve">
+    <value>加入会员</value>
+  </data>
+  <data name="STR_MESSEGEUNIT" xml:space="preserve">
+    <value>{0} 件</value>
+  </data>
+  <data name="STR_MINUTE" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="STR_MONEY" xml:space="preserve">
+    <value>金额</value>
+  </data>
+  <data name="STR_MONEYCHANGE" xml:space="preserve">
+    <value>金额变动</value>
+  </data>
+  <data name="STR_MONEYINFO" xml:space="preserve">
+    <value>金额详情</value>
+  </data>
+  <data name="STR_MONEYUNIT" xml:space="preserve">
+    <value>&lt;b&gt;{0:F2}&lt;/b&gt;元</value>
+  </data>
+  <data name="STR_MSG_CHARGE" xml:space="preserve">
+    <value>充值消息</value>
+  </data>
+  <data name="STR_MSG_DISCHARGE" xml:space="preserve">
+    <value>提现消息</value>
+  </data>
+  <data name="STR_MSG_SYSTEM" xml:space="preserve">
+    <value>系统消息</value>
+  </data>
+  <data name="STR_NAME" xml:space="preserve">
+    <value>名字</value>
+  </data>
+  <data name="STR_NEW" xml:space="preserve">
+    <value>最新</value>
+  </data>
+  <data name="STR_NEXT" xml:space="preserve">
+    <value>下次</value>
+  </data>
+  <data name="STR_NICKNAME" xml:space="preserve">
+    <value>署名</value>
+  </data>
+  <data name="STR_NOCONFIRM" xml:space="preserve">
+    <value>未确认</value>
+  </data>
+  <data name="STR_NODATA" xml:space="preserve">
+    <value>NO DATA</value>
+  </data>
+  <data name="STR_NORMAL" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="STR_NUMBER" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="STR_OWNERMONEY" xml:space="preserve">
+    <value>保有金额</value>
+  </data>
+  <data name="STR_OWNERNAME" xml:space="preserve">
+    <value>持卡人</value>
+  </data>
+  <data name="STR_PERMISSION" xml:space="preserve">
+    <value>权限</value>
+  </data>
+  <data name="STR_PLAYING" xml:space="preserve">
+    <value>进行中</value>
+  </data>
+  <data name="STR_PREF_CHARGE" xml:space="preserve">
+    <value>充</value>
+  </data>
+  <data name="STR_PREF_DISCHARGE" xml:space="preserve">
+    <value>提</value>
+  </data>
+  <data name="STR_PREV" xml:space="preserve">
+    <value>先前</value>
+  </data>
+  <data name="STR_PROCESS" xml:space="preserve">
+    <value>处理</value>
+  </data>
+  <data name="STR_PROHIBITID" xml:space="preserve">
+    <value>ID,别名限制单词</value>
+  </data>
+  <data name="STR_PWD" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="STR_RACE" xml:space="preserve">
+    <value>赛车</value>
+  </data>
+  <data name="STR_RANK1" xml:space="preserve">
+    <value>1级</value>
+  </data>
+  <data name="STR_RANK10" xml:space="preserve">
+    <value>10级</value>
+  </data>
+  <data name="STR_RANK2" xml:space="preserve">
+    <value>2级</value>
+  </data>
+  <data name="STR_RANK3" xml:space="preserve">
+    <value>3级</value>
+  </data>
+  <data name="STR_RANK4" xml:space="preserve">
+    <value>4级</value>
+  </data>
+  <data name="STR_RANK5" xml:space="preserve">
+    <value>5级</value>
+  </data>
+  <data name="STR_RANK6" xml:space="preserve">
+    <value>6级</value>
+  </data>
+  <data name="STR_RANK7" xml:space="preserve">
+    <value>7级</value>
+  </data>
+  <data name="STR_RANK8" xml:space="preserve">
+    <value>8级</value>
+  </data>
+  <data name="STR_RANK9" xml:space="preserve">
+    <value>9级</value>
+  </data>
+  <data name="STR_READCOUNT" xml:space="preserve">
+    <value>点击数</value>
+  </data>
+  <data name="STR_READTIME" xml:space="preserve">
+    <value>读取时间</value>
+  </data>
+  <data name="STR_RECHARGE" xml:space="preserve">
+    <value>再充值</value>
+  </data>
+  <data name="STR_RECVALL" xml:space="preserve">
+    <value>全部通知</value>
+  </data>
+  <data name="STR_RECVUSERID" xml:space="preserve">
+    <value>接收会员ID</value>
+  </data>
+  <data name="STR_REGDATE" xml:space="preserve">
+    <value>添加日期</value>
+  </data>
+  <data name="STR_REGISTER" xml:space="preserve">
+    <value>注册</value>
+  </data>
+  <data name="STR_REGTODIST" xml:space="preserve">
+    <value>添加为代理</value>
+  </data>
+  <data name="STR_REQUEST" xml:space="preserve">
+    <value>申请</value>
+  </data>
+  <data name="STR_REQUESTDATE" xml:space="preserve">
+    <value>申请日期</value>
+  </data>
+  <data name="STR_REQUEST_CHARGE" xml:space="preserve">
+    <value>充值申请</value>
+  </data>
+  <data name="STR_REQUEST_DISCHARGE" xml:space="preserve">
+    <value>申请提现</value>
+  </data>
+  <data name="STR_ROUND" xml:space="preserve">
+    <value>次数</value>
+  </data>
+  <data name="STR_ROWCOUNTPERPAGE" xml:space="preserve">
+    <value>一页显示数</value>
+  </data>
+  <data name="STR_SEARCH" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="STR_SELECTCANCEL" xml:space="preserve">
+    <value>选择取消</value>
+  </data>
+  <data name="STR_SELECTDELETE" xml:space="preserve">
+    <value>选择删除</value>
+  </data>
+  <data name="STR_SELECTUPDATE" xml:space="preserve">
+    <value>修改选择</value>
+  </data>
+  <data name="STR_SENDMSG" xml:space="preserve">
+    <value>发送短信</value>
+  </data>
+  <data name="STR_SEPERATOR" xml:space="preserve">
+    <value>区分</value>
+  </data>
+  <data name="STR_SITE" xml:space="preserve">
+    <value>归属</value>
+  </data>
+  <data name="STR_STANDBY" xml:space="preserve">
+    <value>等待</value>
+  </data>
+  <data name="STR_STANDBYDO" xml:space="preserve">
+    <value>等待处理</value>
+  </data>
+  <data name="STR_STATUS" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="STR_STOP" xml:space="preserve">
+    <value>中断</value>
+  </data>
+  <data name="STR_SUCCESS" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="STR_SUM" xml:space="preserve">
+    <value>合计</value>
+  </data>
+  <data name="STR_TELNO" xml:space="preserve">
+    <value>手机</value>
+  </data>
+  <data name="STR_TITLE" xml:space="preserve">
+    <value>题目</value>
+  </data>
+  <data name="STR_TODAY" xml:space="preserve">
+    <value>今日</value>
+  </data>
+  <data name="STR_TODAYPLUS7" xml:space="preserve">
+    <value>今日+7日</value>
+  </data>
+  <data name="STR_UNSELECT" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="STR_UPDATE" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="STR_UPDATERESULT" xml:space="preserve">
+    <value>修改结果</value>
+  </data>
+  <data name="STR_USE" xml:space="preserve">
+    <value>使用</value>
+  </data>
+  <data name="STR_USER" xml:space="preserve">
+    <value>用户</value>
+  </data>
+  <data name="STR_USERCOUNT" xml:space="preserve">
+    <value>(总会员数 : {0}, &lt;font color='orange'&gt;限制 : {1}&lt;/font&gt;, &lt;font color="red"&gt;离会 : {2}&lt;/font&gt;)</value>
+  </data>
+  <data name="STR_USERNUM" xml:space="preserve">
+    <value>会员数</value>
+  </data>
+  <data name="STR_USER_BETRATIO" xml:space="preserve">
+    <value>使用赔率设置</value>
+  </data>
+  <data name="STR_VALID" xml:space="preserve">
+    <value>无效</value>
+  </data>
+  <data name="STR_VIEWLIST" xml:space="preserve">
+    <value>目录</value>
+  </data>
+  <data name="STR_VISITCOUNT" xml:space="preserve">
+    <value>访问数</value>
+  </data>
+  <data name="STR_WEIXINCONFIG" xml:space="preserve">
+    <value>微信设置</value>
+  </data>
+  <data name="STR_WEIXIN_APPID" xml:space="preserve">
+    <value>公众号的唯一标识（appid）</value>
+  </data>
+  <data name="STR_WEIXIN_APPSECRET" xml:space="preserve">
+    <value>公众号的appsecret</value>
+  </data>
+  <data name="STR_WEIXIN_MCHID" xml:space="preserve">
+    <value>商户号（mch_id）</value>
+  </data>
+  <data name="STR_WEIXIN_SHOPKEY" xml:space="preserve">
+    <value>商户支付key</value>
+  </data>
+  <data name="STR_WHOLE" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="STR_WIN" xml:space="preserve">
+    <value>中奖</value>
+  </data>
+  <data name="STR_WINCOUNT" xml:space="preserve">
+    <value>中奖数</value>
+  </data>
+  <data name="STR_WINMONEY" xml:space="preserve">
+    <value>中奖金额</value>
+  </data>
+  <data name="STR_WITHDRAW" xml:space="preserve">
+    <value>提现</value>
+  </data>
+  <data name="STR_WON" xml:space="preserve">
+    <value>元</value>
+  </data>
+  <data name="STR_WRITER" xml:space="preserve">
+    <value>楼主</value>
+  </data>
+  <data name="STR_ZHIFUBAOCONFIG" xml:space="preserve">
+    <value>支付宝设置</value>
+  </data>
+  <data name="STR_ZHIFUBAO_INFO" xml:space="preserve">
+    <value>支付宝账号</value>
+  </data>
+  <data name="STR_ZHIFUBAO_KEY" xml:space="preserve">
+    <value>交易安全校验码（key）</value>
+  </data>
+  <data name="STR_ZHIFUBAO_PARTNER" xml:space="preserve">
+    <value>合作者身份（partner ID)</value>
+  </data>
+</root>

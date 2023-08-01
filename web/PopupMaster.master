@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="PopupMaster.master.cs" Inherits="Member_PopupMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="/css/style.css" type="text/css" rel="Stylesheet" />
+    <style type="text/css">
+        html, body, form
+        {
+    	    background-color: White;
+    	    color: #3c3c3c;
+    	    padding: 0px;
+    	    margin: 0px;
+        }
+    </style>
+    <script language="javascript" type="text/javascript" src="/js/jquery-1.7.min.js"></script>
+    <asp:Literal ID="ltlScript" runat="server" Text=""></asp:Literal>
+    <asp:ContentPlaceHolder id="PopupHeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <title></title>
+</head>
+<body>
+    <form id="frmPopup" runat="server">
+    <div style="padding: 10px 10px 10px 10px">
+        <asp:ToolkitScriptManager ID="scManager" runat="server" EnableScriptLocalization="true" EnableScriptGlobalization="true" EnablePartialRendering="true" CombineScripts="false">
+        </asp:ToolkitScriptManager>
+        <asp:ContentPlaceHolder id="PopupBodyContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
+

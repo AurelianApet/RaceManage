@@ -1,0 +1,45 @@
+[2016-01-17 14:28:01] --> [127.0.0.1] : 관리자에서 배팅내역 삭제 : 관리자아이디 : cocacola, 삭제내역 : chikitae12201512141108084460,chikitae12201512141108084621,jumiooo201512141108019410,youi5201512141106424900,jbg1006201512141105299810,youi5201512141104452720,yunjeachun20151214110425690,polodmsdud201512141102303310,jbg1006201512141102226250,wprnr100201512141101273070,tyww1179201512141101224710,tyww1179201512141056037470,tyww1179201512141038082500,youi5201512141036582060,jbg1006201512141033413020,yunjeachun201512141031559710,polodmsdud201512141030514180,tyww1179201512141030158500,jbg1006201512141028539190,youi5201512141028264780,dpffps3641201512141028199100,yunjeachun201512141026533150,jin0877201512141026428320,kingpop07201512141026139250,kingpop07201512141021434510,qweasd201512141014505030,wprnr100201512141012301030,yunjeachun201512141005182780,jbg1006201512141004551900,tae2002201512141003257400,jbg100620151214100159660,tyww1179201512141001409080,polodmsdud201512140947128750,jbg1006201512140945074040,wprnr100201512140941345890,dpffps364120151214094057240,jbg1006201512140938014610,tyww117920151214093448990,jbg1006201512140934423110,yunjeachun201512140933338120,yunjeachun201512140930522890,qwerty1211201512140928181450,illdo1201512140927252920,tyww1179201512140923008250,yunjeachun201512140919094920,jbg1006201512140918595700,wprnr100201512140918553430,tyww1179201512140918332060,jbg1006201512140916473290,dpffps3641201512140916331020
+[2016-06-19 08:42:12] --> [127.0.0.1] : Column 'ulevel' does not belong to table Table.
+[2016-07-01 10:43:31] --> [127.0.0.1] : Object reference not set to an instance of an object.
+[2016-07-06 16:07:27] --> [127.0.0.1] : step1
+[2016-07-06 16:07:27] --> [127.0.0.1] : step2
+[2016-07-06 16:07:33] --> [127.0.0.1] : step1
+[2016-07-06 16:07:33] --> [127.0.0.1] : step2
+[2016-07-06 16:08:26] --> [127.0.0.1] : step1
+[2016-07-06 16:08:26] --> [127.0.0.1] : step2
+[2016-08-01 04:07:16] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:07:21] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:07:23] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:07:26] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:07:28] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:07:31] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:07:36] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:07:41] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:07:46] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:07:51] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:07:56] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:08:02] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:08:07] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:08:12] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:08:17] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:08:22] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:08:27] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:08:31] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:08:36] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:08:39] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:09:20] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:09:25] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:09:28] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:09:31] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:09:34] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:09:36] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:15:15] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:15:19] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:15:36] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:29:28] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:29:55] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:29:58] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 04:30:02] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 19:00:29] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 19:00:34] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.
+[2016-08-01 19:02:08] --> [127.0.0.1] : 질의오류:sp_getCurrentGame Procedure or function 'sp_getCurrentGame' expects parameter '@lottery', which was not supplied.

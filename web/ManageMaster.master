@@ -1,0 +1,149 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ManageMaster.master.cs" Inherits="ManageMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<!DOCTYPE html>
+<html lang=""><head runat="server">
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="robots" content="" />
+	
+	<link rel="stylesheet" href="/css/style.css" type="text/css" />
+	<script language="javascript" type="text/javascript" src="/js/jquery-1.7.min.js"></script>
+	<script language="javascript" type="text/javascript" src="/js/common.js"></script>
+	<script language="javascript" type="text/javascript" src="/js/alert.js"></script>
+	<script language="javascript" type="text/javascript" src="/js/menu.js"></script>
+	
+	<script language="javascript" type="text/javascript" src="/js/jquery.wysiwyg.js"></script>
+    <script language="javascript" type="text/javascript" src="/js/custom.js"></script>
+    <script language="javascript" type="text/javascript" src="/js/cycle.js"></script>
+    <script language="javascript" type="text/javascript" src="/js/jquery.checkbox.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/js/jquery.tablesorter.min.js"></script>
+    <asp:Literal ID="ltlScript" runat="server"></asp:Literal>
+    <asp:ContentPlaceHolder id="ManageHeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <title><%=CurrentPage.SiteConfig.Title%></title>
+    <script type="text/javascript" language="javascript">
+        function changeMenuSelected(menuName){
+            var name = "#li" + menuName;
+            $(name).attr("class", "section");
+        }
+    </script>
+</head>
+<body>
+    <form id="frmMain" runat="server">
+    <asp:ToolkitScriptManager ID="scManager" runat="server" EnableScriptLocalization="true" EnableScriptGlobalization="true" EnablePartialRendering="true" CombineScripts="false">
+    </asp:ToolkitScriptManager>
+    <div class="testing">
+        <section class="user">
+	        <div class="profile-img">
+		        <p><asp:Literal ID="ltlNickName" runat="server"></asp:Literal></p>
+	        </div>
+	        <div class="infos">
+	            <table width="300px" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="100px" class="left">
+                        <a href="/MoneyMng/ChargeMng.aspx?type=0" style="color:Yellow;"><%= Resources.Str.STR_CHARGE%><%= Resources.Str.STR_REQUEST %> : <span id="spChargeRequest_pip"><asp:Literal ID="ltlChargeRequest" runat="server" Text="0"></asp:Literal></span></a>
+                    </td>
+                    <td width="100px" class="left">
+                        <a href="/MoneyMng/DischargeMng.aspx?type=0" style="color:Yellow;"><%= Resources.Str.STR_WITHDRAW%><%= Resources.Str.STR_REQUEST %> : <span id="spDischargeRequest_pip"><asp:Literal ID="ltlDischargeRequest" runat="server" Text="0"></asp:Literal></span></a>
+                    </td>
+                    <td width="100px" class="left">
+                        <a href="/MemberMng/MemberMng.aspx?type=0" style="color:Yellow;"><%= Resources.Str.STR_WHOLE%><%= Resources.Str.STR_MEMBER %> : <span id="spMember_pip"><asp:Literal ID="ltlMember" runat="server" Text="0"></asp:Literal></span></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="100px" class="left">
+                        <a href="/MoneyMng/ChargeMng.aspx?type=3" style="color:Yellow;"><%= Resources.Str.STR_CHARGE%><%= Resources.Str.STR_STANDBY %> : <span id="spChargeStandby_pip"><asp:Literal ID="ltlChargeStandby" runat="server" Text="0"></asp:Literal></span></a>
+                    </td>
+                    <td width="100px" class="left">
+                        <a href="/MoneyMng/DischargeMng.aspx?type=3" style="color:Yellow;"><%= Resources.Str.STR_WITHDRAW%><%= Resources.Str.STR_STANDBY%> : <span id="spDischargeStandby_pip"><asp:Literal ID="ltlDischargeStandby" runat="server" Text="0"></asp:Literal></span></a>
+                    </td>
+                    <td width="100px" class="left">
+                        <a href="/MemberMng/MemberMng.aspx?type=1" style="color:Yellow;"><%= Resources.Str.STR_NEW%><%= Resources.Str.STR_MEMBER%> : <span id="spMemberNew_pip"><asp:Literal ID="ltlMemberNew" runat="server" Text="0"></asp:Literal></span></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="100px" class="left">
+                        <a href="/MoneyMng/ChargeMng.aspx?type=1" style="color:Yellow;"><%= Resources.Str.STR_CHARGE%><%= Resources.Str.STR_COMPLETE %> : <span id="spChargeComplete_pip"><asp:Literal ID="ltlChargeComplete" runat="server" Text="0"></asp:Literal></span></a>
+                    </td>
+                    <td width="100px" class="left">
+                        <a href="/MoneyMng/DischargeMng.aspx?type=1" style="color:Yellow;"><%= Resources.Str.STR_WITHDRAW%><%= Resources.Str.STR_COMPLETE%> : <span id="spDischargeComplete_pip"><asp:Literal ID="ltlDischargeComplete" runat="server" Text="0"></asp:Literal></span></a>
+                    </td>
+                    <td width="100px" class="left"></td>
+                </tr>
+	            </table>
+	        </div>
+	        <div class="buttons">
+	            <span class="button blue"><a href="http://101.102.224.133:50001">网页</a></span>
+		        <span class="button blue"><a href="/Config/MainConfig.aspx">网站设置</a></span>
+		        <span class="button blue"><a href="/logout.aspx">退出</a></span>
+	        </div>
+        </section>
+    </div>
+    <nav>
+	    <ul>
+		    <li id="liAdminHome"><a href="/default.aspx"><span class="icon">&#128196;</span> <%= Resources.Menu.MENU_ADMINHOME%></a></li>
+		    <li id="liLoginUser"><a href="/loginuser1.aspx"><span class="icon">&#128102;</span> <%= Resources.Menu.MENU_CONSTATUS%></a></li>
+		    <li id="liMemberMng">
+			    <a href="javascript:;"><span class="icon">&#128101;</span> <%=Resources.Menu.MENU_MEMBERMNG%> <span class="pip">4</span></a>
+			    <ul class="submenu">
+				    <li><a href="/MemberMng/MemberMng.aspx"><%=Resources.Menu.MENU_MEMBERINFO%></a></li>
+				    <li><a href="/MemberMng/ConnectHist.aspx"><%=Resources.Menu.MENU_CONHIST%></a></li>
+				    <li><a href="/MemberMng/DistMng.aspx"><%=Resources.Menu.MENU_DISTMNG%></a></li>
+				    <li><a href="/MemberMng/SosokMng.aspx"><%=Resources.Menu.MENU_SOSOKMNG%></a></li>
+			    </ul>
+		    </li>
+		    <li id="liRaceMng">
+			    <a href="javascript:;"><span class="icon">&#128198;</span> <%= Resources.Menu.MENU_RACEMNG%> <span class="pip">2</span></a>
+			    <ul class="submenu">
+				    <li><a href="/RaceMng/GameHist.aspx"><%= Resources.Menu.MENU_GAMEMNG%></a></li>
+				    <li><a href="/RaceMng/BetHist.aspx"><%= Resources.Menu.MENU_BETTINGMNG%></a></li>
+			    </ul>
+		    </li>
+		    <li id="liLadderMng">
+			    <a href="javascript:;"><span class="icon">&#128198;</span> <%= Resources.Menu.MENU_LADDERMNG%> <span class="pip">2</span></a>
+			    <ul class="submenu">
+				    <li><a href="/LadderMng/GameHist.aspx"><%= Resources.Menu.MENU_GAMEMNG%></a></li>
+				    <li><a href="/LadderMng/BetHist.aspx"><%= Resources.Menu.MENU_BETTINGMNG%></a></li>
+			    </ul>
+		    </li>
+		    <li id="liMoneyMng">
+		        <a href="javascript:;"><span class="icon">&#128220;</span> <%= Resources.Menu.MENU_MONEYMNG%><span class="pip">4</span></a>
+		        <ul class="submenu">
+		            <li><a href="/MoneyMng/ChargeMng.aspx"><%= Resources.Menu.MENU_CHARGEMNG%></a></li>
+		            <li><a href="/MoneyMng/DischargeMng.aspx"><%= Resources.Menu.MENU_DISCHARGEMNG%></a></li>
+		            <li><a href="/MoneyMng/CashMng.aspx"><%= Resources.Menu.MENU_CASHMNG%></a></li>
+		            <li><a href="/MoneyMng/SaleMng.aspx"><%= Resources.Menu.MENU_SALEMNG%></a></li>
+			    </ul>
+		    </li>
+		    <li id="liNoticeMng">
+		        <a href="javascript:;"><span class="icon">&#128140;</span> <%= Resources.Menu.MENU_BOARDMNG%><span class="pip">2</span></a>
+		        <ul class="submenu">
+		            <li><a href="/NoticeMng/NoticeMng.aspx"><%= Resources.Menu.MENU_NOTICEMNG%></a></li>
+		            <li><a href="/NoticeMng/MsgMng.aspx"><%= Resources.Menu.MENU_MSGMNG%></a></li>
+			    </ul>
+		    </li>
+		    <li id="liConfig">
+		        <a href="javascript:;"><span class="icon">&#9881;</span> <%=Resources.Menu.MENU_CONFIG%><span class="pip">3</span></a>
+		        <ul class="submenu">
+		            <li><a href="/Config/MainConfig.aspx"><%= Resources.Menu.MENU_MAINCONFIG%></a></li>
+		            <li><a href="/Config/RaceConfig.aspx"><%= Resources.Menu.MENU_RACECONFIG%></a></li>
+		            <li><a href="/Config/LadderConfig.aspx"><%= Resources.Menu.MENU_LADDERCONFIG%></a></li>
+			    </ul>
+		    </li>
+		    <li></li>
+	    </ul>
+    </nav>
+    <asp:ContentPlaceHolder id="ManageBodyContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <div id="divMenu" class="clsmenu" style="display: none"
+        onmouseover="menuShowAction()"
+        onmouseout="menuHideAction()"></div>
+    <div id="divPlaySound">
+    </div>
+    </form>
+</body>
+</html>
+

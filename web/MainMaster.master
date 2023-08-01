@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainMaster.master.cs" Inherits="MainMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="">
+<head runat="server">
+    <title><%=CurrentPage.SiteConfig.Title %></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="robots" content="" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<link rel="stylesheet" href="/css/style.css" type="text/css" />
+	<script language="javascript" type="text/javascript" src="/js/jquery-1.7.min.js"></script>
+    <asp:ContentPlaceHolder id="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:Literal ID="ltlScript" runat="server"></asp:Literal>
+</head>
+<body class="login">
+    <form id="frmMain" runat="server">
+        <asp:ContentPlaceHolder id="BodyContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
